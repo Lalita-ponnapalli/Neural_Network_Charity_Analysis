@@ -19,10 +19,16 @@ Data Preprocessing
 
  ##### I have taken 3 attempts to reach 75% accuracy
  ##### Attempt1 : Dropping more columns
+ ![image](https://user-images.githubusercontent.com/100485119/178125517-1529e323-dc8c-427a-97d4-39d10e60a07f.png)
+
  ##### Dropped USE_CASEcolumn and got result of  0.7338 accuracy.
  ##### Attempt2 : Adding more hidden layers
+![image](https://user-images.githubusercontent.com/100485119/178125547-3414c61a-f37d-4536-b681-f993f2056455.png)
+
  ##### Added one more hidden layer to the model and got result of  0.7350 accuracy.
  ##### Attempt 3 :Added more epochs to the training regimen.
+ ![image](https://user-images.githubusercontent.com/100485119/178125551-1831f2ee-ac6a-40be-88f0-91c542183d0b.png)
+
  ##### Added more epochs to the training and got result of 0.7347 accuracy.
 ### Summary:
 #### The model ended up with the accuracy score of 73% after optimization. The initial neural network had a accuracy score of 72%. The result is more or less same. We could further also optimize our neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. 
